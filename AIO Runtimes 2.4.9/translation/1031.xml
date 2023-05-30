@@ -1,0 +1,16 @@
+<xml type="translation" lcid="1031">
+	<components>
+		<item id="basicruntimes">Installiert die neuesten Versionen einiger alter Laufzeitkomponenten wie OpenAL oder VisualBasic, welche möglicherweise immer noch für einige Anwendungen benötigt werden.</item>
+		<item id="msdx9">Installiert die aktuellsten Dateien von DirectX 9.0c, welche für viele Spiele benötigt werden.</item>
+		<item id="AdobeFlash">Installiert den Adobe Flash Player, welcher zur korrekten Anzeige vieler Internetseiten verwendet wird. Flash ermöglicht die Verwendung interaktiver und leistungsfähiger Internetinhalte.</item>
+		<item id="jre7">Installiert die Oracle Java Laufzeitumgebung, welche benötigt wird, um in der Programmiersprache Java erstellte Programme und Internetapplets auszuführen.</item>
+		<item id="jre8">Installiert die Oracle Java Laufzeitumgebung, welche benötigt wird, um in der Programmiersprache Java erstellte Programme und Internetapplets auszuführen.</item>
+		<item id="msjsharp">Installiert Laufzeitkomponenten von Microsoft Visual J# für entsprechend erstellte Programme. Diese Programmiersprache basiert auf Java, ist aber nur mit installiertem .NET Framework lauffähig.</item>
+		<item id="msdxm">Installiert Microsoft DirectX for Managed Code, wodurch die Vorteile von DirectX9-Multimedia-Funktionialitäten und Hardwarebeschleunigung in Managed Code verwendet werden können.</item>
+		<item id="msvc">Installiert Laufzeitkomponenten von Microsoft Visual C++-Bibliotheken. Diese sind zum Ausführen von mit Microsoft Visual Studio entwickelten Anwendungen nötig, wenn dieses auf dem System nicht installiert ist.</item>
+		<item id="AdobeShock">Installiert den Adobe Shockwave Player, welcher eine Erweiterung des Flash Players darstellt und zum Anzeigen einiger Webinhalte benötigt wird.</item>
+		<item id="silver">Installiert Microsoft Silverlight, eine mit dem Flash Player vergleichbare, auf .NET basierende, Alternative zur Anzeige entsprechender Webinhalte.</item>
+		<item id="NetWin8">Aktiviert das Windows Feature ".NET Framework 3.5.1" auf Windows 8 und 8.1. Der Installationsdatenträger muss hierfür eingelegt (DVD) / eingeseteckt (USB) sein</item>
+	</components>
+</xml>
+

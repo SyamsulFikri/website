@@ -1,0 +1,25 @@
+<xml type="translation" lcid="1049">
+   <messages>
+       <item id="msg_all"            value="все" />
+       <item id="msg_pause"          value="Пауза" />
+       <item id="msg_inst"           value="Установка" />
+       <item id="msg_fin"            value="Готово!" />
+       <item id="msg_err"            value="Ошибка" />
+       <item id="msg_err_failed"     value="Неудача. Код ошибки:" />
+       <item id="msg_err_noelements" value="Все элементы в актуальном состоянии!" />
+   </messages>
+   <components>
+       <item id="net1.1">Устанавливает файлы и компоненты, необходимые для запуска приложений, разработанных с Microsoft .NET Framework. Будут установлены только компоненты и версии, необходимые для текущей операционной системы.</item>
+       <item id="basicruntimes" group="System Runtimes">Устанавливает последние версии старых компонентов, таких как OpenAL или VisualBasic, которые могут потребоваться для запуска некоторых приложений.</item>
+       <item id="msdx9"         group="System Runtimes">Устанавливает последние версии файлов DirectX 9.0c, которые необходимы для многих игр.</item>
+       <item id="AdobeFlash"    group="Default applications">Устанавливает Adobe Flash Player, который используется для корректного отображения многих сайтов. Flash необходим для эффективного использования интерактивного интернет-контента.</item>
+       <item id="jre7"          group="Default applications">Устанавливает Oracle Java Runtime Environment, что необходимо для запуска приложений и веб-апплетов, разработанных на языке программирования Java.</item>
+       <item id="jre8"          group="Default applications">Устанавливает Oracle Java Runtime Environment, что необходимо для запуска приложений и веб-апплетов, разработанных на языке программирования Java.</item>
+       <item id="msjsharp"      group="Other Runtimes">Устанавливает исполняемые компоненты среды Microsoft Visual J# для программ, созданных в ней. Visual J# основан на Java, но способен работать только с установленным .NET Framework.</item>
+       <item id="msdxm"         group="Other Runtimes">Устанавливает Microsoft DirectX for Managed Code, что дает преимущества в использовании мультимедийного функционала DirectX9 и аппаратного ускорения для Managed Code.</item>
+       <item id="msvc"          group="Default applications">Устанавливает исполняемые компоненты библиотек Microsoft Visual C++. Они необходимы для выполнения приложений, разработанных с Microsoft Visual Studio, на системах без установленной Visual Studio.</item>
+       <item id="AdobeShock"    group="Default applications">Устанавливает Adobe Shockwave Player, который представляет собой расширение Flash Player и используется для отображения различного интернет-контента.</item>
+       <item id="silver"        group="Default applications">Устанавливает Microsoft Silverlight, представляющий собой альтернативу Flash Player на основе .NET для отображения соответствующего интернет-контента.</item>
+       <item id="NetWin8"       group="Default applications">Устанавливает компонент Windows ".NET Framework 3.5.1" на Windows 8 и 8.1. Установочный диск должен быть вставлен (DVD/USB).</item>
+   </components>
+</xml>

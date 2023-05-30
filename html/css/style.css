@@ -1,0 +1,14 @@
+h1	{
+	color: lightblue;
+	font-family: arial, vardana, sans-serif;
+	font-size: 100px;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+p {
+	color: green;
+	font-family: arial, initial;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+}

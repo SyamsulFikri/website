@@ -1,0 +1,7 @@
+http://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.171/install_flash_player.exe
+http://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.171/install_flash_player_ax.exe
+
+
+http://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.270/install_flash_player_32_active_x.msi
+http://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.270/install_flash_player_32_plugin.msi
+http://fpdownload.macromedia.com/get/flashplayer/pdc/32.0.0.270/install_flash_player_32_ppapi.msi

@@ -1,0 +1,18 @@
+<package id="AdobeFlash" name="%NAME% v%VERSION%" group="Standard Programme" checked="0">
+    <variable name="VERSION"         value="32.0.0.270" />
+    <variable name="VERSION_FILE"    value="32_0_0_270" />
+    <variable name="VERSION_FILE_AX" value="32_0_0_270 />
+    <variable name="NAME"            value="Adobe Flash Player" />
+	
+	<install>
+		<cmd name="%NAME% - ActiveX" path="install_flash_player_32_active_x.msi">
+			<check type="os"   condition="<" value="6.2.9200.0" />
+			<check type="file" condition="notexist" path="%Windir%\system32\Macromed\Flash\Flash64_%VERSION_FILE_AX%.ocx" arch="x64" />
+			<check type="file" condition="notexist" path="%Windir%\system32\Macromed\Flash\Flash32_%VERSION_FILE_AX%.ocx" arch="x86" />
+		</cmd>
+		<cmd name="%NAME% - Plugin" path="install_flash_player_32_plugin.msi">
+			<check type="file" condition="notexist" path="%Windir%\system32\Macromed\Flash\NPSWF64_%VERSION_FILE%.dll" arch="x64" />
+			<check type="file" condition="notexist" path="%Windir%\system32\Macromed\Flash\NPSWF32_%VERSION_FILE%.dll" arch="x86" />
+		</cmd>
+	</install>
+</package>

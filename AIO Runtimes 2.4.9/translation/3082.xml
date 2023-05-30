@@ -1,0 +1,45 @@
+﻿<xml type="translation" lcid="3082">
+<!--- Not available for translation START -->
+	<tabs>
+		<item id="tabNormal"          value="Intalación" /> <!--- Tab Installation -->
+		<item id="tabDetail"          value="Detalles" /> <!--- Tab Detailliert -->
+	</tabs>
+<!--- Not available for translation END -->
+
+	<messages>
+		<item id="msg_all"            value="Todos" />
+		<item id="msg_pause"          value="Pausar" />
+		<item id="msg_inst"           value="Instalar" />
+		<item id="msg_fin"            value="Fin!" />
+		<item id="msg_err"            value="Error" />
+		<item id="msg_err_failed"     value="Ha fallado. Código de Error:" />
+		<item id="msg_err_noelements" value="Todos los elementos están al día!" />
+	</messages>
+	
+	<components>
+		<item id="basicruntimes" group="Runtimes de Sistema">Instala las versiones más recientes de algunos antiguos runtimes, como OpenAL o VisualBasic, que aún podrían ser utilizados por algunas las aplicaciones.</item>
+		<item id="msdx9"         group="Runtimes de Sistema">Instala los archivos más actuales de DirectX 9.0c que son necesarios para muchos juegos.</item>
+		<item id="AdobeFlash"    group="Aplicaciones por defecto">Instala Adobe Flash Player que se utiliza para mostrar correctamente muchos sitios web. Flash permite que el contenido web sea más interactivo y capaz.</item>
+		<item id="jre7"          group="Aplicaciones por defecto">Instala el runtime de Oracle Java que se requiere para ejecutar aplicaciones y aplicaciones web desarrolladas en lenguaje de programación Java.</item>
+		<item id="jre8"          group="Aplicaciones por defecto">Instala el runtime de Oracle Java que se requiere para ejecutar aplicaciones y aplicaciones web desarrolladas en lenguaje de programación Java.</item>
+		<item id="msvc"          group="Aplicaciones por defecto">Instala las runtimes de bibliotecas de Microsoft Visual C++. Se requieren para ejecutar aplicaciones desarrolladas con Microsoft Visual Studio en sistemas que no tienen instalado Visual Studio.</item>
+<!--- Added to the translation START -->
+		<item id="msvc2005"      group="Aplicaciones por defecto">Instala las runtimes de bibliotecas de Microsoft Visual C++ 2005. Se requieren para ejecutar aplicaciones desarrolladas con Microsoft Visual Studio en sistemas que no tienen instalado Visual Studio.</item>
+		<item id="msvc2008"      group="Aplicaciones por defecto">Instala las runtimes de bibliotecas de Microsoft Visual C++ 2008. Se requieren para ejecutar aplicaciones desarrolladas con Microsoft Visual Studio en sistemas que no tienen instalado Visual Studio.</item>
+		<item id="msvc2012"      group="Aplicaciones por defecto">Instala las runtimes de bibliotecas de Microsoft Visual C++ 2012. Se requieren para ejecutar aplicaciones desarrolladas con Microsoft Visual Studio en sistemas que no tienen instalado Visual Studio.</item>
+		<item id="msvc2013"      group="Aplicaciones por defecto">Instala las runtimes de bibliotecas de Microsoft Visual C++ 2013. Se requieren para ejecutar aplicaciones desarrolladas con Microsoft Visual Studio en sistemas que no tienen instalado Visual Studio.</item>
+		<item id="msvc2017"      group="Aplicaciones por defecto">Instala las runtimes de bibliotecas de Microsoft Visual C++ 2017. Se requieren para ejecutar aplicaciones desarrolladas con Microsoft Visual Studio en sistemas que no tienen instalado Visual Studio.</item>
+<!--- Added to the translation END -->
+		<item id="AdobeShock"    group="Aplicaciones por defecto">Instala Adobe Shockwave Player, que es una extensión de Flash Player y se utiliza para mostrar diversos contenidos web.</item>
+		<item id="silver"        group="Aplicaciones por defecto">Instala Microsoft Silverlight que es una alternativa basada en .NET comparable a la de Flash Player para mostrar contenido web relacionado.</item>
+		<item id="net1.1"        group="Aplicaciones por defecto">Instala los archivos y componentes necesarios para ejecutar aplicaciones desarrolladas con Microsoft .NET Framework. Sólo se instalarán los componentes y versiones que se necesitan en el sistema operativo actual.</item>
+		<item id="NetWin8"       group="Aplicaciones por defecto">Instala la característica de Windows ".NET Framework 3.5.1" en Windows 8 y 8.1. La fuente de la instalación tiene que ser insertada (DVD/USB)</item>
+		<item id="net3.5.1"      group="Aplicaciones por defecto">Instala la característica de Windows ".NET Framework 3.5.1". La fuente de la instalación tiene que ser insertada (DVD/USB)</item>
+<!--- Added to the translation START -->
+		<item id="net4.7.0"      group="Aplicaciones por defecto">Instala la característica de Windows ".NET Framework 4.7.0". La fuente de la instalación tiene que ser insertada (DVD/USB)</item>
+<!--- Added to the translation END -->
+		<item id="msjsharp"      group="Otros Runtimes">Instala los runtimes de Microsoft Visual J# para aplicaciones desarrolladas adecuadamente. Visual J# se basa en Java pero requiere que el .NET Framework se instale también.</item>
+		<item id="msdxm"         group="Otros Runtimes">Instala Microsoft DirectX for Managed Code, que permite las ventajas de la funcionalidad multimedia DirectX9 y la aceleración de hardware para el código administrado.</item>
+	</components>
+</xml>
+

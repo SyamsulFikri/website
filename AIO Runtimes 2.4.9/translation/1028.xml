@@ -1,0 +1,25 @@
+﻿<xml type="translation" lcid="1028">
+	<messages>
+		<item id="msg_all"            value="全部" />
+		<item id="msg_pause"          value="暫停" />
+		<item id="msg_inst"           value="安裝" />
+		<item id="msg_fin"            value="結束!" />
+		<item id="msg_err"            value="錯誤" />
+		<item id="msg_err_failed"     value="失敗。錯誤代碼:" />
+		<item id="msg_err_noelements" value="所有元件是最新的!" />
+	</messages>
+	<components>
+		<item id="net1.1">安裝執行 Microsoft.NET Framework 開發的應用程式時所需的檔案和元件。只有安裝目前作業系統所需的元件和版本。</item>
+		<item id="basicruntimes" group="System Runtimes">安裝一些舊的執行階段如 OpenAL 或 VisualBasic 的最新版本，其可能仍很少被應用程式所使用。</item>
+		<item id="msdx9"         group="System Runtimes">安裝許多電腦遊戲需要的 DirectX 9.0 c 的最新檔。</item>
+		<item id="AdobeFlash"    group="Default applications">安裝用來正確地顯示許多網站的 Adobe Flash Player。Flash 使得網頁內容更具互動性和能力。</item>
+		<item id="jre7"           group="Default applications">安裝執行 Java 程式語言設計的應用程式和網頁小程式所需的 Oracle Java runtime environment。</item>
+		<item id="jre8"           group="Default applications">安裝執行 Java 程式語言設計的應用程式和網頁小程式所需的 Oracle Java runtime environment。</item>
+		<item id="msjsharp"      group="Other Runtimes">對適當地開發的應用程式安裝 Microsoft Visual J# 執行階段元件。Visual J# 以 Java 為基礎但需要安裝 .NET Framework。</item>
+		<item id="msdxm"         group="Other Runtimes">安裝 Microsoft DirectX 的 Managed 程式碼，這啟用 DirectX9 多媒體功能和硬體加速 Managed 程式碼的優點。</item>
+		<item id="msvc"          group="Default applications">安裝 Microsoft Visual C++ 程式庫的執行階段元件。它們需要執行系統上 Microsoft Visual Studio 開發的應用程式而沒有安裝 Visual Studio。</item>
+		<item id="AdobeShock"    group="Default applications">安裝 Adobe Shockwave Player(Flash Player 的延伸)，用於顯示不同的網頁內容。</item>
+		<item id="silver"        group="Default applications">安裝 Microsoft Silverlight，這是以 .NET 為基礎與 Flash Player 相媲美顯示相關網頁內容的替代方案。</item>
+	</components>
+</xml>
+

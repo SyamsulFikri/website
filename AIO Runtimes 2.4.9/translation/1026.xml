@@ -1,0 +1,26 @@
+<xml type="translation" lcid="1026">
+	<messages>
+		<item id="msg_all"            value="всички" />
+		<item id="msg_pause"          value="Пауза" />
+		<item id="msg_inst"           value="Инсталирай" />
+		<item id="msg_fin"            value="Край!" />
+		<item id="msg_err"            value="Грешка" />
+		<item id="msg_err_failed"     value="Неуспешно. Код на грешката:" />
+		<item id="msg_err_noelements" value="Всички елементи са актуални!" />
+	</messages>
+	<components>
+		<item id="net1.1">Инсталира файлове и компоненти, необходими за изпълняване на приложения, разработени с Microsoft .NET Framework. Ще бъдат инсталирани само компонентите и версиите, необходими за текущата операционна система.</item>
+		<item id="basicruntimes" group="System Runtimes">Инсталира най-новите версии на някои стари пакети като OpenAL или Visual Basic, които рядко, но все още може да се използват от приложения.</item>
+		<item id="msdx9"         group="System Runtimes">Инсталира най-актуалните файлове на DirectX 9.0c, които са необходими за много компютърни игри.</item>
+		<item id="AdobeFlash"    group="Default applications">Инсталира Adobe Flash Player, който се използва за правилно показване на много уеб сайтове. Flash позволява уеб съдържанието да бъде по-интерактивно и ефективно.</item>
+		<item id="jre7"          group="Default applications">Installs the Oracle Java runtime environment which is required to run applications and web applets developed in Java programming language.</item>
+		<item id="jre8"          group="Default applications">Installs the Oracle Java runtime environment which is required to run applications and web applets developed in Java programming language.</item>
+		<item id="msjsharp"      group="Other Runtimes">Инсталира компоненти на Microsoft Visual J# за подходящо разработени приложения. Visual J# е базиран на Java, но изисква .NET Framework, за да бъдат правилно инсталирани.</item>
+		<item id="msdxm"         group="Other Runtimes">Инсталира Microsoft DirectX за управлявания код, който разрешава предимствата на мултимедийна функционалност и хардуерното ускорение на DirectX9 за управлявания код.</item>
+		<item id="msvc"          group="Default applications">Инсталира компоненти от Microsoft Visual C ++ библиотеките. Те са необходими за стартиране на приложения, разработени с Microsoft Visual Studio на системи, които нямат инсталиран Visual Studio.</item>
+		<item id="AdobeShock"    group="Default applications">Инсталира Adobe Shockwave Player, който е разширение на Flash Player и се използва за показване на различно уеб съдържание.</item>
+		<item id="silver"        group="Default applications">Инсталира Microsoft Silverlight, която е .NET Framework базирана алтернатива, сравнима с Flash Player за показване на сродно уеб съдържание.</item>
+		<item id="NetWin8"       group="Default applications">Инсталира Windows функцията ".NET Framework 3.5.1" на Windows 8 и 8.1. Инсталация-източник трябва да е поставена (DVD / USB)</item>
+	</components>
+</xml>
+

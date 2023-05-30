@@ -1,0 +1,17 @@
+<package id="silver" name="%NAME%" group="Standard Programme">
+	<variable name="NAME"    value="Microsoft Silverlight v%VERSION%" />
+	<variable name="VERSION" value="5.1.50918.0" />
+	
+	<check type="file" condition="<" value="%VERSION%" arch="x86" path="%programfiles%\Microsoft Silverlight\sllauncher.exe" />
+    <check type="file" condition="<" value="%VERSION%" arch="x64" path="%programfiles(x86)%\Microsoft Silverlight\sllauncher.exe"  />
+	
+	<install>
+		<cmd arch="x86" param="/q /lang 1031" path="silverlight.exe" />
+		<cmd arch="x64" param="/q /lang 1031" path="silverlight_x64.exe" name="%NAME% x64">
+			<check type="os" condition=">" value="6.0.0.0" />
+		</cmd>
+		<cmd arch="x64" param="/q /lang 1031" path="silverlight.exe">
+			<check type="os" condition="<" value="6.0.0.0" /> 
+		</cmd>
+	</install>
+</package>

@@ -1,0 +1,9 @@
+<package id="AdobeShock" name="Adobe Shockwave Player v12.3.5.205" group="Standard Programme" checked="0">
+    <variable name="BUILD" value="1235205" />
+	<install>
+		<cmd path="sw_lic_full_installer.msi" param="/norestart /qb-!">
+			<check type="file" condition="notexist" path="%windir%\system32\Adobe\Shockwave 12\SwHelper_%BUILD%.exe" arch="x86" />
+			<check type="file" condition="notexist" path="%windir%\syswow64\Adobe\Shockwave 12\SwHelper_%BUILD%.exe" arch="x64" />
+		</cmd>
+	</install>
+</package>

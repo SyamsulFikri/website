@@ -1,0 +1,6 @@
+<package id="basicruntimes" name="Allgemeine Runtime Dateien" group="System Runtimes">
+	<check type="file" condition="<" value="1.0.5.1" path="%windir%\system32\AiORuntimes.dll" />
+	<install>
+		<cmd path="General_Runtimes_Installer.exe" param="/SILENT /NORESTART" />
+	</install>
+</package>

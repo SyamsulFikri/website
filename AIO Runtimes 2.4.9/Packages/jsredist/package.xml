@@ -1,0 +1,7 @@
+<package id="msjsharp" name="Microsoft Visual J-Sharp 2.0 SE" group="Sonstige Runtimes" prereq="net2.0">
+	<check type="file" condition="notexist" path="%Windir%\Microsoft.NET\Framework\VJSharp\vjshost.dll" />
+	<install>
+		<cmd path="x86\install.exe" param="/q" arch="x86" />
+		<cmd path="x64\install.exe" param="/q" arch="x64" />
+	</install>
+</package>

@@ -1,0 +1,14 @@
+<package id="msvc2008" name="%NAME% Runtimes 2008" group="Standard Programme" priority="10">
+    <variable name="NAME" value="Visual C++" />
+	<variable name="VER_2K08" value="9.0.30729.7523" />
+	
+	<check type="file" arch="x86" condition="<" path="%commonprogramfiles%\microsoft shared\VC\msdia90.dll" value="%VER_2K08%" />
+	<check type="file" arch="x64" condition="<" path="%programfiles(x86)%\Common Files\microsoft shared\VC\msdia90.dll" value="%VER_2K08%" />
+	<check type="file" arch="x64" condition="<" path="%programfiles%\Common Files\Microsoft Shared\VC\msdia90.dll" value="%VER_2K08%" />
+	
+	<install>
+		<cmd name="%NAME% 2008 Uninstall" path="uninstall.bat" />
+		<cmd name="%NAME% 2008" path="x86\vc_red.msi" param="transforms=2k8-x86.mst" />
+		<cmd name="%NAME% 2008 x64" path="x64\vc_red.msi" param="transforms=2k8-x64.mst" arch="x64" />
+	</install>
+</package>

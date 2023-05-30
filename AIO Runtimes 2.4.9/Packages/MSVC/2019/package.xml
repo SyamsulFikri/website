@@ -1,0 +1,17 @@
+<package id="msvc2019" name="%NAME% Runtimes 2019" group="Standard Programme" priority="10">
+    <variable name="NAME" value="Visual C++" />
+	<variable name="VER" value="14.24.28127.4" />
+	
+	<check type="os" condition=">" value="5.1.2600.5510" />
+	<check type="file" condition="<" path="%windir%\system32\vcamp140.dll" value="%VER%" />
+	<check type="file" condition="<" path="%windir%\system32\mfc140u.dll" value="%VER%" />
+		
+	<install>
+		<cmd name="%NAME% 2019 Uninstall" path="uninstall.bat" />
+		<cmd name="%NAME% 2019" path="VC_redist.x86.exe" param="/q /norestart">
+			<check type="file" arch="x64" condition="<" path="%windir%\syswow64\vcamp140.dll" value="%VER%" />
+			<check type="file" arch="x64" condition="<" path="%windir%\syswow64\mfc140u.dll" value="%VER%" />
+		</cmd>
+		<cmd name="%NAME% 2019 x64" path="VC_redist.x64.exe" param="/q /norestart" arch="x64" />
+	</install>
+</package>

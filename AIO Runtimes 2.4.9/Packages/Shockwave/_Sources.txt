@@ -1,0 +1,9 @@
+http://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/sw_lic_full_installer.msi
+
+--> http://www.adobe.com/go/sw_slim_exe_installer
+--> http://www.adobe.com/go/sw_full_exe_installer
+
+http://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/Shockwave_Installer_Slim.exe
+http://fpdownload.macromedia.com/get/shockwave/default/english/win95nt/latest/Shockwave_Installer_Full.exe
+
+

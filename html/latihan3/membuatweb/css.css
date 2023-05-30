@@ -1,0 +1,104 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Tampilan Global */
+  body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+  }
+  
+  /* Tampilan Header */
+  header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  /* Tampilan Produk */
+  main section {
+    margin: 50px 0;
+  }
+  
+  section h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  article {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  article h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  article img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  article p {
+    margin-bottom: 10px;
+  }
+  
+  /* Tampilan Kontak */
+  main section:last-child {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+  }
+  
+  /* Tampilan Footer */
+  footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  

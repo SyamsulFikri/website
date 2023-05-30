@@ -1,0 +1,8 @@
+<package id="msdx9" name="Microsoft DirectX 9.0c Redistributable" group="System Runtimes">
+	<install>
+		<cmd path="DX90c_Addon_Installer.exe" param="/SILENT">
+			<check type="file" condition="<" path="%Windir%\system32\XAudio2_7.dll" value="9.29.1962.0" arch="x86" />
+			<check type="file" condition="<" path="%Windir%\syswow64\XAudio2_7.dll" value="9.29.1962.0" arch="x64" />
+		</cmd>
+	</install>
+</package>

@@ -1,0 +1,26 @@
+﻿<xml type="translation" lcid="1025">
+	<messages>
+		<item id="msg_all"            value="الكل" />
+		<item id="msg_pause"          value="إيقاف" />
+		<item id="msg_inst"           value="تثبيت" />
+		<item id="msg_fin"            value="انتهى !" />
+		<item id="msg_err"            value="خطأ" />
+		<item id="msg_err_failed"     value="فشل. رقم الخطأ:" />
+		<item id="msg_err_noelements" value="كل العناصر حتى الآن !" />
+	</messages>
+	<components>
+		<item id="net1.1">تثبيت الملفات والمكونات اللازمة لتشغيل التطبيقات التي تم تطويرها مع Microsoft .NET Framework فقط سيتم تثبيت مكونات و الإصدارات المطلوبة على نظام التشغيل الحالي ..</item>
+		<item id="basicruntimes" group="System Runtimes">تثبيت أحدث الإصدارات من بعض runtimes القديمة مثل OpenAL أو VisualBasic، التي قد لا تزال نادراً ما يتم استخدامها من قبل التطبيقات.</item>
+		<item id="msdx9"         group="System Runtimes">تثبيت أكثر الملفات الحالية من DirectX 9.0c يحتاجه الكثير من ألعاب الكمبيوتر .</item>
+		<item id="AdobeFlash"    group="Default applications">تثبيت Adobe Flash Player الذي يستخدم لعرض العديد من المواقع بشكل صحيح على شبكة الإنترنت. الفلاش يجعل المحتوى على شبكة الإنترنت أكثر تفاعلية وكفاءة.</item>
+		<item id="jre7"          group="Default applications">تثبيت Oracle Java runtime environment المطلوبة لتشغيل التطبيقات و تطبيقات الويب المتقدمة في لغة البرمجة جافا .</item>
+		<item id="jre8"          group="Default applications">تثبيت Oracle Java runtime environment المطلوبة لتشغيل التطبيقات و تطبيقات الويب المتقدمة في لغة البرمجة جافا .</item>
+		<item id="msjsharp"      group="Other Runtimes">تثبيت مكونات runtime من Microsoft Visual J# عن التطبيقات التي تم تطويرها بشكل مناسب. ويستند Visual J# على جافا ولكن يتطلب .NET Framework ليتم تثبيتها أيضاً.</item>
+		<item id="msdxm"         group="Other Runtimes">تثبيت Microsoft DirectX للتعليمات البرمجية المدارة، والتي تمكن المزايا من DirectX وظائف الوسائط المتعددة و تسارع العتاد للتعليمات البرمجية المدارة.</item>
+		<item id="msvc"          group="Default applications">تثبيت مكونات runtime من مكتبات Microsoft Visual C++ . هي مطلوبة لتشغيل التطبيقات التي تم تطويرها مع Microsoft Visual Studio على الأنظمة التي لا تحتوي على Visual Studio مثبت.</item>
+		<item id="AdobeShock"    group="Default applications">تثبيت Adobe Shockwave Player الذي هو امتداد لـ Flash Player، ويستخدم لعرض محتوى الويب المختلفة.</item>
+		<item id="silver"        group="Default applications">تثبيت Microsoft Silverlight الذي هو بديل يستند إلى .NET مماثلة لـ Flash Player لعرض محتوى الويب ذات الصلة.</item>
+		<item id="NetWin8"       group="Default applications">تثبيت ميزة ويندوز " .NET Framework 3.5.1 " على ويندوز 8 و 8.1. لابد من إدراج مصدر التركيب (DVD/USB)</item>
+	</components>
+</xml>
+

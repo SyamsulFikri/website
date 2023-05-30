@@ -1,0 +1,26 @@
+<xml type="translation" lcid="1033">
+	<messages>
+		<item id="msg_all"            value="all" />
+		<item id="msg_pause"          value="Pause" />
+		<item id="msg_inst"           value="Install" />
+		<item id="msg_fin"            value="End!" />
+		<item id="msg_err"            value="Error" />
+		<item id="msg_err_failed"     value="Failed. Error Code:" />
+		<item id="msg_err_noelements" value="All elements are up to date!" />
+	</messages>
+	<components>
+		<item id="net1.1">Installs the files and components needed to run applications developed with Microsoft .NET Framework. Only the components and versions that are needed on the current OS will be installed.</item>
+		<item id="basicruntimes" group="System Runtimes">Installs the newest versions of some old runtimes such as OpenAL or VisualBasic, that might still rarely be used by applications.</item>
+		<item id="msdx9"         group="System Runtimes">Installs the most current files of DirectX 9.0c that are needed for many computer games.</item>
+		<item id="AdobeFlash"    group="Default applications">Installs Adobe Flash Player which is used for properly displaying many web sites. Flash allows web content to be more interactive and capable.</item>
+		<item id="jre7"          group="Default applications">Installs the Oracle Java runtime environment which is required to run applications and web applets developed in Java programming language.</item>
+		<item id="jre8"          group="Default applications">Installs the Oracle Java runtime environment which is required to run applications and web applets developed in Java programming language.</item>
+		<item id="msjsharp"      group="Other Runtimes">Installs runtime components of Microsoft Visual J# for applications appropriately developed. Visual J# is based on Java but requires the .NET Framework to be installed as well.</item>
+		<item id="msdxm"         group="Other Runtimes">Installs Microsoft DirectX for Managed Code, which enables the advantages of DirectX9 multimedia functionality and hardware acceleration for managed code.</item>
+		<item id="msvc"          group="Default applications">Installs runtime components of Microsoft Visual C++ Libraries. They are required to run applications developed with Microsoft Visual Studio on systems not having Visual Studio installed.</item>
+		<item id="AdobeShock"    group="Default applications">Installs Adobe Shockwave Player which is an extension of Flash Player and is used for displaying various web content.</item>
+		<item id="silver"        group="Default applications">Installs Microsoft Silverlight which is an .NET based alternative comparable to the Flash Player for displaying related web content.</item>
+		<item id="NetWin8"       group="Default applications">Installs the Windows Feature ".NET Framework 3.5.1" on Windows 8 and 8.1. The Installation-Source hast to be inserted (DVD/USB)</item>
+	</components>
+</xml>
+

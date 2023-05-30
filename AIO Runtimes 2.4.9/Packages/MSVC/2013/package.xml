@@ -1,0 +1,17 @@
+<package id="msvc2013" name="%NAME% Runtimes 2013" group="Standard Programme" priority="10">
+    <variable name="NAME" value="Visual C++" />
+	<variable name="VER_2K13" value="12.0.40664.0" />
+	
+	<check type="os" condition=">" value="5.1.2600.2000" />
+	<check type="file" condition="<" path="%windir%\system32\vcamp120.dll" value="%VER_2K13%" />
+	<check type="file" condition="<" path="%windir%\system32\mfc120u.dll" value="%VER_2K13%" />
+
+	<install>
+		<cmd name="%NAME% 2013 Uninstall" path="uninstall.bat" />
+		<cmd name="%NAME% 2013" path="msvc_13_x86.exe" param="/q /norestart">
+			<check type="file" arch="x64" condition="<" path="%windir%\syswow64\vcamp120.dll" value="%VER_2K13%" />
+			<check type="file" arch="x64" condition="<" path="%windir%\syswow64\mfc120u.dll" value="%VER_2K13%" />
+		</cmd>
+		<cmd name="%NAME% 2013 x64" path="msvc_13_x64.exe" param="/q /norestart" arch="x64" />
+	</install>
+</package>

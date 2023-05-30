@@ -1,0 +1,16 @@
+<package id="jre8" name="%NAME%" group="Standard Programme" priority="10">
+    <variable name="NAME"  value="Java Runtime Environment 8 Update 231" />
+    <variable name="BUILD" value="8.0.2310.11" />
+    <variable name="DIR" value="jre1.8.0_231" />
+		
+	<check type="os"   condition=">=" value="5.1.2600.5512" />
+	<check type="file" condition="<" arch="x86" value="%BUILD%" path="%programfiles%\Java\%DIR%\bin\java.exe" />
+	<check type="file" condition="<" arch="x64" value="%BUILD%" path="%programfiles(x86)%\Java\%DIR%\bin\java.exe" />
+	
+	<install>
+		<cmd name="Java: Fix MS SystemUser Bug" path="..\SystemFix.bat" />
+		<cmd name="Java: Remove old Installation" path="..\uninstall.bat" param="8" />
+		<cmd path="x86\jre.exe" param="/s" />
+		<cmd path="x64\jre.exe" param="/s" arch="x64" name="%NAME% x64" />
+	</install>
+</package>

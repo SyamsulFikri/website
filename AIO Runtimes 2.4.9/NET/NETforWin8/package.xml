@@ -1,0 +1,7 @@
+﻿<package id="NetWin8" name=".NET Framework 2.0 - 3.5.1" group="Microsoft .NET Framework" priority="1">
+	<check type="os" condition=">" value="6.2.9200.0" />
+	<check type="file" condition="notexist" path="%windir%\Microsoft.NET\Framework\v2.0.50727\aspnet_wp.exe" />
+	<install>
+		<cmd path="NETEnable.bat" />
+	</install>
+</package>

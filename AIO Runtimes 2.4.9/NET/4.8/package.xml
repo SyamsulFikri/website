@@ -1,0 +1,12 @@
+<package id="net4.8.0" name="%NAME%" group="Microsoft .NET Framework" priority="44">
+	<variable name="NAME"value=".NET Framework 4.8 (KB4054530)" />
+	<check type="file" condition="<" value="4.8.3761.0" path="%Windir%\Microsoft.NET\Framework\v4.0.30319\System.Core.dll" />
+	<check type="os" condition=">" value="6.1.7600.16385" />
+	<check type="os" condition="<" value="6.2.9200.0" /> 
+	
+	<install>
+		<cmd name="%NAME% - KB4019990" path="KB4019990.bat" />
+		<cmd arch="x86" path="netfx_Full_x86.msi" param="/norestart /qb-!" />
+		<cmd arch="x64" path="netfx_Full_x64.msi" param="/norestart /qb-!" />
+	</install>
+</package>

@@ -1,0 +1,20 @@
+<package id="msvc2012" name="%NAME% Runtimes 2012" group="Standard Programme" priority="10">
+    <variable name="NAME" value="Visual C++" />
+	<variable name="VER_2K12" value="11.0.61135.400" />
+	
+	<check type="os" condition=">" value="6.0.6002.0" />
+	<check type="file" condition="<" path="%windir%\system32\vcamp110.dll" value="%VER_2K12%" />
+	<check type="file" condition="<" path="%windir%\system32\mfc110u.dll" value="%VER_2K12%" />
+	
+	<install>
+		<cmd name="%NAME% 2012 Uninstall" path="uninstall.bat" />
+		<cmd name="%NAME% 2012 Minimum" path="Setup\vc_runtimeMinimum_x86.msi" param="/q /norestart">
+			<check type="file" arch="x64" condition="<" path="%windir%\syswow64\vcamp110.dll" value="%VER_2K12%" />
+		</cmd>
+		<cmd name="%NAME% 2012 Additional" path="Setup\vc_runtimeAdditional_x86.msi" param="/q /norestart">
+			<check type="file" arch="x64" condition="<" path="%windir%\syswow64\mfc110u.dll" value="%VER_2K12%" />
+		</cmd>
+		<cmd name="%NAME% 2012 Minimum x64" path="Setup\vc_runtimeMinimum_x64.msi" param="/q /norestart" arch="x64" />
+		<cmd name="%NAME% 2012 Additional x64" path="Setup\vc_runtimeAdditional_x64.msi" param="/q /norestart" arch="x64" />
+	</install>
+</package>
